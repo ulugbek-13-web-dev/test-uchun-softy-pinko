@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.discuss{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.discuss-container{
+    width: 94%;
+    display: flex;
+}
+
+.discuss-image{
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.discuss-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.discuss-text h2{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    color: #1E1E1E;
+}
+
+.discuss-text p{
+    text-align: start;
+    padding: 50px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #777777;
+}
+
+
+#number1{
+    display: flex;
+    flex-direction: row-reverse;
+}

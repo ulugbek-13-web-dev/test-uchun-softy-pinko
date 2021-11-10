@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+.point{
+    background-color:whitesmoke;   
+}
+
+.point-text{
+    padding-top: 80px;
+    
+}
+
+.point-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.point-text p{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #777;
+    font-family: 'Raleway', sans-serif;
+}
+
+.point-text h2{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    color: #1e1e1e;
+    font-family: 'Raleway', sans-serif;
+}
+.point-card-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.point-item{
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+    background-color:white;
+    height: 280px;
+    width: 330px;
+}
+
+.point-item-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.point-item-text{
+    text-align: center;
+}
+
+.point-item-text p{
+    margin-left: 10px;
+    text-align: start;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #777777;
+}
+
+.point-item-text h3{
+    margin-top: 35px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    color: #777777;
+}
+
+.point-item-text h4{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #ff589e;
+}
+
+

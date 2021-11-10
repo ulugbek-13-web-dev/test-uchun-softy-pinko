@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600&display=swap');
+.talk{
+    padding: 40px 0;
+    background: #f2f2fe;
+}
+.talk-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 0;
+}
+.talk-title h2{
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    color: #1e1e1e;
+    margin-top: 60px;
+}
+.talk-title p{
+    width: 450px;
+    padding: 10px 0;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #777;
+    margin-top: 15px;
+    width: 500px;
+}
+.talk-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left: 300px;
+}
+.talk-text{
+    margin-top: -50px;
+    flex: 0 0 30px;
+}
+.talk-text h3{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: #1e1e1e
+}
+.talk-text p{
+    margin-top: 20px;
+    width: 270px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #777;
+}
+
+.talk-form-2{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.talk-form-2 textarea{
+    padding: 15px;
+    border-radius: 20px;
+    color: #777;
+    outline: none;
+    border: 1px solid #eee;
+    width: 600px;
+}
+#space{
+    margin-left: 25px;
+}
+.talk-form-2 button{
+    margin-top: 15px;
+    padding: 11px;
+    width: 130px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #8261ee;
+    color: white;
+}
+.talk-form-1{
+    padding: 10px;
+}
+.talk-form-1 input{
+    padding: 15px;
+    border-radius: 20px;
+    outline: none;
+    color: #777;
+    font-size: 14px;
+    border: 1px solid #eee;
+    width: 270px;
+}
